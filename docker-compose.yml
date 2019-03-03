@@ -1,10 +1,14 @@
 version: '3'
 services:
   app:
-    build: .
+    build: ./docker/node
     env_file: .env
     volumes:
       - .:/srv
+      - node_modules:/srv/my-app/node_modules
     tty: true
     ports:
       - "${NODE_PORT}:3000"
+
+volumes:
+  node_modules: {}
