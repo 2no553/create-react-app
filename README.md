@@ -25,11 +25,11 @@
 
 ### Start
 ```
-
+git clone https://github.com/2no553/react_docker.git
 cd react_docker/
 docker-compose up -d --build
-docker-compose run --rm app yarn install
 docker-compose exec app sh
+/srv/my-app # yarn install
 /srv/my-app # yarn start
 http://192.168.XX.XXX:3000/
 ```
