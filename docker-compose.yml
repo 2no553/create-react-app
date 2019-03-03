@@ -6,6 +6,7 @@ services:
     volumes:
       - .:/srv
       - node_modules:/srv/my-app/node_modules
+    working_dir: /srv/my-app
     tty: true
     ports:
       - "${NODE_PORT}:3000"
