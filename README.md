@@ -13,11 +13,12 @@
 .
 ├── README.md
 ├── docker
-│   └── node
+│   └── node
 ├── docker-compose.yml
 └── my-app
     ├── README.md
     ├── node_modules
+    ├── package-lock.json
     ├── package.json
     ├── public
     ├── src
