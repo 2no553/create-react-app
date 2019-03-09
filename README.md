@@ -3,6 +3,7 @@
 - Docker version 18.09.2
 - docker-compose version 1.23.2
 - node v10.15.2
+- npm 6.4.1
 - yarn 1.13.0
 - react v16.8.3
 ```
@@ -28,9 +29,18 @@
 git clone https://github.com/2no553/react_docker.git
 cd react_docker/
 docker-compose up -d --build
+```
+
+#### Create app
+```
+docker-compose run --rm app npx create-react-app my-app
+```
+
+### build
+```
 docker-compose exec app sh
-/srv/my-app # yarn install
-/srv/my-app # yarn start
+/srv/my-app # npm install
+/srv/my-app # npm start
 http://192.168.XX.XXX:3000/
 ```
 
