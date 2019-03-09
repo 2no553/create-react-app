@@ -25,7 +25,7 @@
     └── yarn.lock
 ```
 
-### Start
+### Build
 ```
 git clone https://github.com/2no553/react_docker.git
 cd react_docker/
@@ -37,7 +37,7 @@ docker-compose up -d --build
 docker-compose run --rm app npx create-react-app my-app
 ```
 
-### build
+### Start
 ```
 docker-compose exec app sh
 /srv/my-app # npm install
