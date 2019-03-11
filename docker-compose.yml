@@ -1,15 +1,14 @@
-version: '3'
+version: "3"
 services:
   app:
     build: ./docker/node
-    env_file: .env
     working_dir: ${APP_CODE_PATH_CONTAINER}
     volumes:
       - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}
-      - node_modules:${APP_CODE_PATH_CONTAINER}/node_modules
-    tty: true
+      - node_modules:${APP_CODE_PATH_CONTAINER}/my-app/node_modules
     ports:
       - "${NODE_PORT}:3000"
+    tty: true
 
 volumes:
   node_modules: {}
