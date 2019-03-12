@@ -47,6 +47,7 @@ http://192.168.XX.XXX:3000/
 
 ### Reference
 - [node \- Docker Hub](https://hub.docker.com/_/node/)
+- [nodejs/docker\-node: Official Docker Image for Node\.js](https://github.com/nodejs/docker-node)
 - [facebook/create\-react\-app: Set up a modern web app by running one command\.](https://github.com/facebook/create-react-app)
 - [docker\-composeでコンテナが起動しない – inamuu\.com](https://inamuu.com/docker-compose%E3%81%A7%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%81%8C%E8%B5%B7%E5%8B%95%E3%81%97%E3%81%AA%E3%81%84/)
 - [Docker と node\_modules と Volume Trick \- Memento memo\.](https://shotat.hateblo.jp/entry/2016/12/01/221631)
